@@ -8,21 +8,6 @@ public class Wilder {
         this.present = present;
     }
 
-    public String getFirstname() {
-        return this.firstname;
-    }
-
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public boolean isPresent() {
-        return this.present;
-    }
-
-    public void setPresent(boolean present) {
-        this.present = present;
-    }
 
     public String whoAmI() {
         if (this.present) {
